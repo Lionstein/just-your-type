@@ -15,14 +15,19 @@ html {
   font-family: 'Oswald', sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-}
-
 span {
   display: block;
+}
+
+.first {
+  background-color: #CEC8E8;
+}
+
+.second {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #A6DED6;
+}
+
+p {
+  border-radius: 8px;
 }
