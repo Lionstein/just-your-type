@@ -1,18 +1,6 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 span {
@@ -20,14 +8,22 @@ span {
 }
 
 .first {
-  background-color: #CEC8E8;
+  background-color: #cec8e8;
 }
 
 .second {
-  font-family: 'Open Sans Condensed', sans-serif;
-  background-color: #A6DED6;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: #a6ded6;
+}
+
+h1 {
+  border-radius: 8px;
 }
 
 p {
   border-radius: 8px;
+}
+
+.quote {
+  font-family: "Oswald", sans-serif;
 }
